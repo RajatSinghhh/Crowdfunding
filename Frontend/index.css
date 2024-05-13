@@ -1,0 +1,66 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto; /* Increased margin for better spacing */
+    padding: 30px;
+    border: 2px solid #4d4d4d; /* Darker border color */
+    border-radius: 10px;
+    background-color: #f5f5f5; /* Light gray background color */
+}
+
+h1 {
+    margin-bottom: 30px;
+    color: #333; /* Dark text color */
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group {
+    margin-bottom: 30px;
+}
+
+label {
+    display: block;
+    margin-bottom: 12px;
+    font-weight: bold; /* Bold labels */
+    color: #555; /* Slightly darker text color */
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 15px; /* Increased padding for input fields */
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+}
+
+button {
+    display: inline-block;
+    padding: 16px 28px; /* Adjusted padding for buttons */
+    margin-bottom: 20px;
+    font-size: 20px; /* Increased font size for buttons */
+    font-weight: bold; /* Bold buttons */
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #5cb85c; /* Green color */
+    box-shadow: 0 6px 12px rgba(92, 184, 92, 0.5); /* Adjusted box shadow */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+    background-color: #4cae4c; /* Darker green on hover */
+    box-shadow: 0 8px 14px rgba(92, 184, 92, 0.7); /* Adjusted box shadow on hover */
+}

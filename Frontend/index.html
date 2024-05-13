@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crowdfunding Dapp</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Crowdfunding DApp</h1>
+
+        <div class="button-container">
+            <button id="connect">Connect</button>
+            <br>
+
+            <div class="input-group">
+                <input id="ethAmount" placeholder="At least 0.001 Ether" type="number"/>
+                <label for="ethAmount">Eth value</label>
+            </div>
+            <br>
+
+            <button id="sendeth">Send Ether</button>
+            <br>
+
+            <div class="input-group">
+                <input id="requestId" placeholder="Enter a valid ethereum address" />
+                <label for="requestId">Recipient</label>
+            </div>
+            <br>
+
+            <div class="input-group">
+                <input id="description" placeholder="Enter a description" />
+                <label for="description">Description</label>
+            </div>
+            <br>
+
+            <div class="input-group">
+                <input id="value" placeholder="Enter a value" />
+                <label for="value">Create request value</label>
+            </div>
+            <br>
+
+            <button id="createRequest">Create Request</button>
+            <br>
+
+            <div class="input-group">
+                <input id="voterId" placeholder="Enter a voter no" />
+                <label for="voterId">Voter no</label>
+            </div>
+            <br>
+            
+            <button id="voterRequest">Voter Request</button>
+            <br>
+
+            <div class="input-group">
+                <input id="voterNo" placeholder="Enter a voter no" />
+                <label for="voterNo">Only manager can call this</label>
+            </div>
+            <br>
+
+            <button id="makePayment">Make Payment</button>
+            <br>
+
+            <button id="balance">Get Balance</button>
+            <br>
+
+            <button id="refundAmount">Refund Amount</button>
+            <br>
+        </div>
+    </div>
+</body>
+
+</div>
+</div>
+  
+
+    <script src="./index.js" type="module"></script>
+</body>
+</html>
