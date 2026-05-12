@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#4F46E5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="64" height="64">
+  <!-- Stack of coins -->
+  <ellipse cx="12" cy="7" rx="6" ry="3"></ellipse>
+  <path d="M6 7v6a6 3 0 0 0 12 0V7"></path>
+  <ellipse cx="12" cy="13" rx="6" ry="3"></ellipse>
+  <path d="M6 13v2a6 3 0 0 0 12 0v-2"></path>
+  <ellipse cx="12" cy="15" rx="6" ry="3"></ellipse>
+  <!-- Plus sign -->
+  <line x1="12" y1="4" x2="12" y2="8"></line>
+  <line x1="10" y1="6" x2="14" y2="6"></line>
+</svg>
